@@ -1,15 +1,67 @@
+# Archivos generados por Gradle
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos de IDE (Android Studio / IntelliJ)
+.idea/
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Archivos locales y sensibles
 local.properties
+keystore.jks
+keystore.pem
+*.jks
+*.keystore
+
+# Archivos de build específicos
+/app/build/
+/app/release/
+/app/debug/
+
+# Archivos de version control de Android Studio
+.idea/navEditor.xml
+.idea/caches/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+
+# Temporary files
+*.log
+*.temp
+*.cache
+*.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+
+# Firebase / Google Services
+google-services.json
+GoogleService-Info.plist
+
+# Sentry / Crashlytics
+sentry.properties
+
+# ProGuard
+/proguard/
+/proguardMapping.txt
+/mapping.txt
